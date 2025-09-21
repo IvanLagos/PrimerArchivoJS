@@ -1,0 +1,49 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background-color: darkgrey;
+}
+
+.card {
+    color: white;
+    width: 200px;
+    height: 320px;
+    border-radius: 6px;
+    background: #664a4af8;
+    padding: 10px;
+}
+
+.card .img-card {
+    height: 180px;
+    background-image: url("../imgs/cartel-neon.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+}
+
+.card .menos {
+    background: #b4861d;
+    color: white;
+    border-radius: 5px;
+    padding: 4px 9px;
+}
+
+.card .mas {
+    background: #b4861d;
+    color: white;
+    border-radius: 5px;
+    padding: 4px 7px;
+}
+
+.total-section {
+    padding: 35px;
+    box-sizing: border-box;
+}
+
+.total-section p {
+    margin: 0;
+}
