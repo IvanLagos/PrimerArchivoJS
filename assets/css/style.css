@@ -21,6 +21,14 @@ body {
     padding: 10px;
 }
 
+.card h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin-bottom: 10px;
+}
 .card .img-card {
     height: 180px;
     background-image: url("../imgs/cartel-neon.jpg");
